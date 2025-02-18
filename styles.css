@@ -13,6 +13,11 @@
 .row{
     display: flex;
     justify-content: center;
+    
+}
+.top_right li{
+    display: inline-block;
+    padding: 5px;
 }
 .box{
     background-color: white;
@@ -28,9 +33,24 @@
     margin-bottom: 10px;
 }
 .productBlock{
-    display: flex;
+    /* display: flex; */
     text-align: center;
     padding: 10px;
     background-color: silver;
     justify-content: center;
+    flex-wrap: wrap;
+}
+.Login{ 
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center
+}
+.Registration{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center
 }
